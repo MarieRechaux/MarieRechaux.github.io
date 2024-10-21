@@ -35,21 +35,56 @@
 
         <div class="bubble__content bubble2">
             <div class="competences">
-                <p class="competences__paragraphe p__title">Je possède des compétenes en :
-                </p>
-                
-                <p class="competences__paragraphe">HTML / CSS / SASS bases (niveau intermédiaire), JAVASCRIPT, FIGMA, PHP / PHPOO, SQL, SYMFONY / LARAVEL, GIT / GITHUB, LINUX (ubuntu), SEO, NGINX.
-                </p>
-
-                <p class="aprentissage__paragraphe"> >> Compétence toujours en cours d'aprentissage </p>
+                <p class="competences__paragraphe p__title">voici mes compétence (toujours en cour d'aprentissage)
 
                 <div class="arrow2"></div>
             </div>
         </div>
 
+        <div class="competences__content">
+
+            <h2 class="h2">Back-end</h2>
+
+            <div class="barre__content">
+                <label for="file" class="progress__barre php">PHP / PHPOO :</label>
+                <progress id="file" max="100" value="0">0%</progress>
+                <label for="file" class="progress__barre sql">SQL :</label>
+                <progress id="file" max="100" value="0">0%</progress>
+                <label for="file" class="progress__barre symfony">SYMFONY / LARAVEL :</label>
+                <progress id="file" max="100" value="0">0%</progress>
+                <label for="file" class="progress__barre nginx">NGINX :</label>
+                <progress id="file" max="100" value="0">0%</progress>
+            </div>
+
+            <h2 class="h2">Front-end</h2>
+
+            <div class="barre__content">
+                <label for="file" class="progress__barre html">HTML :</label>
+                <progress id="file" max="100" value="80">80%</progress>
+                <label for="file" class="progress__barre css">CSS / SASS :</label>
+                <progress id="file" max="100" value="70">70%</progress>
+                <label for="file" class="progress__barre javascript">JAVASCRIPT :</label>
+                <progress id="file" max="100" value="0">0%</progress>
+            </div>
+
+            <h2 class="h2">Divers</h2>
+
+            <div class="barre__content">
+                <label for="file" class="progress__barre linux">Linus (ubuntu) :</label>
+                <progress id="file" max="100" value="60">60%</progress>
+                <label for="file" class="progress__barre figma">FIGMA :</label>
+                <progress id="file" max="100" value="80">80%</progress>
+                <label for="file" class="progress__barre github">GIT / GITHUB :</label>
+                <progress id="file" max="100" value="50">50%</progress>
+                <label for="file" class="progress__barre seo">SEO :</label>
+                <progress id="file" max="100" value="0">0%</progress>
+            </div>
+
+        </div>
+
         <div class="bubble__content">
             <div class="projet">
-                <p class="paragraphe__projet">Voici les projet que j'ai réaliser</p>
+                <p class="paragraphe__projet">Voici les projets que j'ai réaliser</p>
 
                 <div class="arrow3"></div>
             </div>
@@ -58,39 +93,41 @@
     </main>
 
     <footer class="footer">
-        <div class="carousel">
-            
-            <input type="radio" name="slides" id="slide1" checked>
-            <input type="radio" name="slides" id="slide2">
-            <input type="radio" name="slides" id="slide3">
-    
-            <div class="carousel-items">
-                <div class="carousel-item" id="item1">
-                    <a href="">
-                        <img src="assets/image/image1.jpg" alt="Image 1">
-                    </a>
-                    <p class="projet__info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed accusantium voluptas laboriosam pariatur quos odio dolore ratione saepe exercitationem aliquid.</p>
+
+        <div class="card__content">
+            <a href="" class="link__card">
+                <div class="card bg1">
+                    <p class="heading">Projet1</p>
+                    <p>Lorem ipsum</p>
+                    <p>dolor sit.</p>
                 </div>
-                <div class="carousel-item" id="item2">
-                    <a href="">
-                        <img src="assets/image/image2.jpg" alt="Image 2">
-                    </a>
-                    <p class="projet__info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam minus fuga magnam quisquam corporis doloremque, obcaecati exercitationem illo voluptate hic?</p>
+            </a>
+
+            <a href="" class="link__card">
+                <div class="card bg2">
+                    <p class="heading">Projet2</p>
+                    <p>Lorem ipsum</p>
+                    <p>dolor sit.</p>
                 </div>
-                <div class="carousel-item" id="item3">
-                    <a href="">
-                        <img src="assets/image/image3.jpg" alt="Image 3">
-                    </a>
-                    <p class="projet__info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis dicta obcaecati iure aliquid facere ducimus deleniti amet in possimus provident.</p>
+            </a>
+
+            <a href="" class="link__card">
+                <div class="card bg3">
+                    <p class="heading">Projet3</p>
+                    <p>Lorem ipsum</p>
+                    <p>dolor sit.</p>
                 </div>
-            </div>
-    
-            <div class="navigation">
-                <label for="slide1" class="nav-button">1</label>
-                <label for="slide2" class="nav-button">2</label>
-                <label for="slide3" class="nav-button">3</label>
-            </div>
+            </a>
+
+            <a href="" class="link__card">
+                <div class="card bg4">
+                    <p class="heading">Projet4</p>
+                    <p>Lorem ipsum</p>
+                    <p>dolor sit.</p>
+                </div>
+            </a>
         </div>
+
     </footer>
     </body>
     </html>
