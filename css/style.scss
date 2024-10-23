@@ -390,6 +390,11 @@ body{
     font-size: 3rem;
   }
 
+  .a__propos, .competences, .projet {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
   .bubble2{
     max-width: 80%;
   }
@@ -397,4 +402,32 @@ body{
   .card__content{
     margin-left: 70px;
   }
+}
+
+@media screen and (max-width:465px){
+
+  .title__content{
+    height: 20vh;
+  }
+
+  .title{
+    font-size: 2.25rem;
+  }
+
+  .bubble__content{
+    margin-left: 5px;
+  }
+
+  .bubble2, .bubble3{
+    max-width: 100%;
+  }
+
+  .competences{
+    text-align: start;
+  }
+
+  .card__content{
+    margin-left: 0;
+  }
+
 }
