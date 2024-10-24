@@ -426,8 +426,16 @@ body{
     text-align: start;
   }
 
-  .card__content{
+  .card {
+    width: 150px;
+    height: 200px;
     margin-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .card::before {
+    width: 140px;
+    height: 190px;
   }
 
 }
